@@ -12,7 +12,7 @@ const AppRouter = () => {
         <SHeader />
         <Switch>
           <Route exact path='/' component={ Home } />
-          <Route path='/show' component={ Show } />
+          <Route path='/show/:shop/:type' component={ Show } />
         </Switch>
         <SFooter />
       </div>
